@@ -1,0 +1,100 @@
+/* Master styles */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav styles */
+.nav-wrapper {
+    display:flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a; 
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a{
+    color: black !important;
+}
+
+.right-side {
+    padding: 0px;
+}
+
+.right-side {
+    color: royalblue;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;  
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.xmasparty{
+position:relative
+}
+.xmasparty img{
+max-width: 100%;
+height: auto;
+}
+
+.banner-txt{
+position:absolute;
+top: 25%;
+color: #ffc0bf;
+padding: 170px;
+}
+
+.banner-txt h4{
+font-size: 26px;
+text-transform: uppercase;
+font-weight: bold;
+margin-bottom: 5px;
+}
